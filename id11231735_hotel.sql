@@ -99,8 +99,7 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`id`, `title`, `fname`, `lname`, `troom`, `tbed`, `nroom`, `cin`, `cout`, `ttot`, `fintot`, `mepr`, `meal`, `btot`, `noofdays`) VALUES
-(18, 'Dr.', 'Chinmay', 'Chaudhari', 'Superior Room', 'Single', 1, '2019-10-15', '2019-10-16', 320.00, 323.20, 0.00, 'Room only', 3.20, 1),
-(20, 'Miss.', 'Akshata', 'Chikhale', 'Deluxe Room', 'Double', 1, '2019-10-19', '2019-10-21', 440.00, 475.20, 26.40, 'Half Board', 8.80, 2);
+(18, 'Dr.', 'never', 'ignore', 'Superior Room', 'Single', 1, '2019-10-15', '2019-10-16', 320.00, 323.20, 0.00, 'Room only', 3.20, 1);
 
 -- --------------------------------------------------------
 
@@ -167,14 +166,7 @@ CREATE TABLE `roombook` (
 --
 
 INSERT INTO `roombook` (`id`, `Title`, `FName`, `LName`, `Email`, `National`, `Country`, `Phone`, `TRoom`, `Bed`, `NRoom`, `Meal`, `cin`, `cout`, `stat`, `nodays`) VALUES
-(16, 'Dr.', 'chinmay', 'chaudhari', 'chinu14007@gmail.com', 'Indian', 'India', '9970631208', 'Superior Room', 'Single', '1', 'Room only', '2019-10-15', '2019-10-16', 'Not Conform', 1),
-(18, 'Dr.', 'Chinmay', 'Chaudhari', 'chinu1400@gmail.com', 'Indian', 'India', '9970631208', 'Superior Room', 'Single', '1', 'Room only', '2019-10-15', '2019-10-16', 'Conform', 1),
-(19, 'Dr.', 'Hi', 'Bye', 'hibye@gmail.com', 'Indian', 'Cambodia', '8668571297', 'Superior Room', 'Single', '2', 'Room only', '2019-10-15', '2019-10-16', 'Not Conform', 1),
-(20, 'Miss.', 'Akshata', 'Chikhale', 'akshata9x28@gmail.com', 'Indian', 'India', '9137026941', 'Deluxe Room', 'Double', '1', 'Half Board', '2019-10-19', '2019-10-21', 'Conform', 2),
-(21, 'Dr.', 'Ranjana', 'Bhalerao', 'something@something.com', 'Indian', 'India', '9876543210', 'Superior Room', 'Quad', '7', 'Full Board', '2019-10-16', '2019-12-31', 'Not Conform', 76),
-(22, 'Miss.', 'Mrunal', 'Bhalerao', 'mrunal.bhalerao25@gmail.com', 'Indian', 'India', '08452886545', 'Deluxe Room', 'Double', '2', 'Full Board', '2019-12-18', '2019-12-25', 'Not Conform', 7),
-(23, 'Prof.', 'Leelavati', 'Mastermind', 'leelarox@gmail.com', 'Indian', 'Germany', '9769435998', 'Superior Room', 'Quad', '4', 'Full Board', '2019-11-13', '2019-12-13', 'Not Conform', 30);
-
+(16, 'Dr.', 'nevrr', 'ignore', 'ignore4007@gmail.com', 'Indian', 'India', '9955991208', 'Superior Room', 'Single', '1', 'Room only', '2019-10-15', '2019-10-16', 'Not Conform', 1);
 --
 -- Indexes for dumped tables
 --
